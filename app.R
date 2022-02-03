@@ -3,7 +3,7 @@ library(dplyr)
 library(ggplot2)
 library(car)
 
-datos <- read.csv('/home/benjamin/Descargas/man_mun_18b.csv')
+datos <- read.csv()
 base_manofactura <- datos %>% 
     select(A111A.Producción.bruta.total..millones.de.pesos., 
            A131A.Valor.agregado.censal.bruto..millones.de.pesos.,
